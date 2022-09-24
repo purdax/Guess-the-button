@@ -9,11 +9,10 @@
   <button type="button" id="Button1" class="btn btn-dark" ><img src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-button-video-games-those-icons-lineal-color-those-icons.png"/></button>
   <button type="button" id="Button2" class="btn btn-dark" onclick="return Castigator();"><img src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-button-video-games-those-icons-lineal-color-those-icons.png"/></button>
   <button type="button" id="Button3" class="btn btn-dark" ><img src="https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-button-video-games-those-icons-lineal-color-those-icons.png"/></button>
-</html>
-
-<script>
+  <script>
     function Castigator() {
         alert("Castigator");
         return false;
     }
 </script>
+</html>
