@@ -1,0 +1,26 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Guess the button </title>
+</head>
+<div class="Title" align="middle">
+  <h2> Hi there! Guess the winner button </h2>
+</div>
+<div class="Buttons" align="middle">
+  <button type="button" id="win" class="btn btn-primary"><img onclick="return Winner();" src="https://img.icons8.com/external-filled-outline-lima-studio/64/000000/external-button-nuclear-energy-filled-outline-lima-studio.png"/></button>
+<button type="button" onclick="Loser();" class="btn btn-primary"><img src="https://img.icons8.com/external-filled-outline-lima-studio/64/000000/external-button-nuclear-energy-filled-outline-lima-studio.png"/></button>
+<button type="button" onclick="Loser();" class="btn btn-primary"><img src="https://img.icons8.com/external-filled-outline-lima-studio/64/000000/external-button-nuclear-energy-filled-outline-lima-studio.png"/></button>
+</div>
+<script>
+  function Winner() {
+    alert("Congratulations! This is the winner button!");
+    return false;
+  }
+  function Loser() {
+    alert("Please try again!");
+    return false;
+  }
+</script>
+</html>
