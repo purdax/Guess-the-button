@@ -1,26 +1,27 @@
 <html>
-<head>
-  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Guess the button </title>
-</head>
-<div class="Title" align="middle">
-  <h2> Hi there! Guess the winner button </h2>
-</div>
-<div class="Buttons" align="middle">
-<button type="button" class="btn btn-primary"><img onclick="return Winner();" src="https://img.icons8.com/external-filled-outline-lima-studio/64/000000/external-button-nuclear-energy-filled-outline-lima-studio.png"/></button>
-<button type="button" class="btn btn-primary"><img onclick="return Loser();" src="https://img.icons8.com/external-filled-outline-lima-studio/64/000000/external-button-nuclear-energy-filled-outline-lima-studio.png"/></button>
-<button type="button" class="btn btn-primary"><img onclick="return Loser();" src="https://img.icons8.com/external-filled-outline-lima-studio/64/000000/external-button-nuclear-energy-filled-outline-lima-studio.png"/></button>
-</div>
-<script>
-  function Winner() {
-    alert("Congratulations! This is the winner button!");
-    return false;
-  }
-  function Loser() {
-    alert("Please try again!");
-    return false;
-  }
-</script>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buttons</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body class="text-center">
+    <h1></h1>
+    <center>
+      <h5> 
+    Hello! Guess the winner button!
+     </h5>
+     <h1></h1>
+  <div class="text-center">
+    <input type="text" id="numbers" placeholder="Number of buttons">    
+    <button onclick="AddButtons()" type="button">Add</button>
+    <h1></h1>
+  </div>
+  <div class="text-center"
+  <h1></h1>
+    <button onClick="refreshPage()"><img src="https://img.icons8.com/external-sbts2018-outline-sbts2018/58/000000/external-restart-basic-ui-elements-2.3-sbts2018-outline-sbts2018.png"/> </button>
+    <h1></h1>
+  </div>
+  </body>
 </html>
