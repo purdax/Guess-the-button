@@ -1,6 +1,5 @@
 <script>
-  
-  function AddButtons() {
+ function AddButtons() {
   var number = document.getElementById('numbers').value;
   while (number != 0 && number > 0) {  
     let btn = document.createElement("button"); 
