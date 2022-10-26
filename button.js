@@ -1,4 +1,5 @@
 <script>
+  
   function AddButtons() {
   var number = document.getElementById('numbers').value;
   while (number != 0 && number > 0) {  
